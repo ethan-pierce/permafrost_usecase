@@ -26,23 +26,23 @@ scalar = 240
 
 [variables.soil_water_content]
 nc_file = ''
-scalar = 0.3
+scalar = 0.4
 
 [variables.frozen_vegetation_height]
 nc_file = ''
-scalar = 0.1
+scalar = 0.0
 
 [variables.thawed_vegetation_height]
 nc_file = ''
-scalar = 0.1
+scalar = 0.0
 
 [variables.frozen_vegetation_diffusivity]
 nc_file = ''
-scalar = 0.00000239
+scalar = 0.00000139
 
 [variables.thawed_vegetation_diffusivity]
 nc_file = ''
-scalar = 0.0000010556
+scalar = 0.0000000556
 
 [soils.sand]
 scalar_fraction = 0.25
