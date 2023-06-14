@@ -5,8 +5,8 @@ inputs_dir = "./cache_alaska/"
 outputs_dir = "./cache_alaska/"
 
 [domain]
-number_of_years = 100 # time
-grid_shape = [100, 100] # [y, x]
+number_of_years = 10 # time
+grid_shape = [3, 3] # [y, x]
 
 [variables.air_temperature]
 nc_file = ''
@@ -22,27 +22,27 @@ scalar = -999
 
 [variables.snow_density]
 nc_file = ''
-scalar = -999
+scalar = 240
 
 [variables.soil_water_content]
 nc_file = ''
-scalar = -999
+scalar = 0.3
 
 [variables.frozen_vegetation_height]
 nc_file = ''
-scalar = -999
+scalar = 0.1
 
 [variables.thawed_vegetation_height]
 nc_file = ''
-scalar = -999
+scalar = 0.1
 
 [variables.frozen_vegetation_diffusivity]
 nc_file = ''
-scalar = -999
+scalar = 0.00000239
 
 [variables.thawed_vegetation_diffusivity]
 nc_file = ''
-scalar = -999
+scalar = 0.0000010556
 
 [soils.sand]
 scalar_fraction = 0.25
